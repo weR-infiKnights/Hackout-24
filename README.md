@@ -1,7 +1,7 @@
 # Hackout-24
 This project contains wildfire detection system
 
-##Wildfire detection system
+#Wildfire detection system
 
 Group Members:
 1) Shivam Patel
