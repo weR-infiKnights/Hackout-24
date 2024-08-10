@@ -14,3 +14,5 @@ This project will help us to detect WildFire by analysing the satellite captured
 The website will ask us to upload a image file, which is then processed to iterate through each and every pixel, hence detecting if the rgb value of the pixel lies between the given range of the color of fire. 
 
 This will also return the percentage of fire on the image uploaded, which tells us about the intensity of the wildfire, hence the public can take the actions accordingly.
+
+This system aims to provide timely and accurate information to help in managing wildfires and preventing their spread
