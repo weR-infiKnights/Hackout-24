@@ -1,0 +1,2 @@
+This directory also contains a Upload folder which is just a temp folder to save the image for processing and then delete the temp image.
+This folder is automatically created during the time of image selection.
