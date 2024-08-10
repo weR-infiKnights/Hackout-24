@@ -9,7 +9,8 @@ Group Members:
 3) Rajdeep Patel
 4) Rushabh Jain
 
-this project will help us to detect wildfire by using the images captured by a satellite and using this project, we will get the percentage of wildfire in the image using the color combination of RGB configuration and check pixels where fire is detected and thus we can compute percent of wildfire in the image captured by satellite.
+# 
+This project will help us to detect WildFire by analysing the satellite captured images. This program also calculates the percentage of wildfire according to the image using the color combination of RGB configuration and check pixels where fire is detected.
 
 The website will ask us to upload a image file, which is then processed to iterate through each and every pixel, hence detecting if the rgb value of the pixel lies between the given range of the color of fire. 
 
