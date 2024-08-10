@@ -1,0 +1,110 @@
+@font-face {
+    font-family: myFont;
+    src: url("../fonts/Chunk.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2D2D2D;
+    font-family: myFont;
+    transition: transform 0.5s ease-in-out;
+}
+
+body.hover-up {
+    transform: translateY(-20px);
+    transition: transform 0.5s ease-in-out;
+}
+
+.displayed-image {
+    width: 500px;
+    height: 350px;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+}
+
+.displayed-image {
+    opacity: 1;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.bg {
+    position: absolute;
+    display: flex;
+    width: 120em;
+    height: 60em;
+    margin-top: -500px;
+    background-color: #E06A4F;
+    margin-right: 10px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    z-index: -1;
+}
+
+.container {
+    text-align: center;
+    margin-top: -100px; 
+}
+
+h1 {
+    color: #000000;
+    font-size: 5rem;
+    font-family: myFont;
+    margin-bottom: 2rem;
+    margin-right: 40px;
+    font-weight: 100;
+}
+
+.drop-zone {
+    border: 2px dashed #000000;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    color: #353332;
+    font-family: myFont;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.drop-zone:hover {
+    background-color: #181818;
+    color: #fff8f8;
+    border: 2px dashed #fdfdfd;
+}
+
+.drop-zone.dragover {
+    background-color: #FF6347;
+}
+
+#image-display img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#result-display {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 800px;
+    background-color: #333;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: myFont;
+    font-size: 1.5rem; 
+}
+
+#result-display p {
+    margin: 10px 0;
+    text-align: center;
+}
