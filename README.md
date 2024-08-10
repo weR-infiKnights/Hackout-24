@@ -1,5 +1,4 @@
-<h1> Hackout 2024 </h1>
-<h2> weR_infiKnights</h2>
+<h1> Hackout 2024 </h1> <h2> weR_infiKnights</h2>
 
 ## Wildfire detection system
 
