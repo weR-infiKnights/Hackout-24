@@ -29,7 +29,7 @@ def check_continuous_fire_color(image_path, min_pixels=5):
     
     return False
 
-image_path = "p8.jpg"
+image_path = "image_path"
 result = check_continuous_fire_color(image_path)
 
 
