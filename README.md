@@ -1,5 +1,4 @@
 # Hackout-24
-This project contains wildfire detection system
 
 ## Wildfire detection system
 
